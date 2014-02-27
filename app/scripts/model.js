@@ -6,5 +6,10 @@ var VideosCollection = Backbone.Collection.extend({
 
 	model: Video,
 
-	url: "http://vimeo.com/api/v2/polerstuff/videos.json?callback=myFunction"
-})
+	url: "http://vimeo.com/api/v2/polerstuff/videos.json?callback=?",
+
+	// parse: function(response) {
+	// 	console.log(response);
+	// 	// return response.results;
+	// }
+});
