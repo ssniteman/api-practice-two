@@ -51,6 +51,7 @@ body {
     margin: 30px 0;
 }
 
+
 /* Main marketing message and sign up button */
 .jumbotron {
     text-align: center;
@@ -72,7 +73,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 1200px;
     }
 
     /* Remove the padding we set earlier */
@@ -138,4 +139,6 @@ body {
 
 .container-two {
     display: inline-block;
+    margin-right: 35px;
+    margin-left: 35px;
 }
