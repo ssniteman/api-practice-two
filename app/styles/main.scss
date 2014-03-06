@@ -23,6 +23,10 @@ body {
     padding-right: 15px;
 }
 
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+    background-color: rgb(217, 63, 15);
+}
+
 /* Custom page header */
 .header {
     border-bottom: 1px solid #e5e5e5;
@@ -120,6 +124,14 @@ body {
   height: 200px;
 } 
 
-.videos {
-    background-color: rgb(217, 63, 15);
+.text-muted {
+    color: #2E2C2C;
+}
+
+.footer-three {
+    position: absolute;
+    z-index: 5;
+    width: 50%;
+    margin-top: -115px;
+    margin-left: 360px;
 }
