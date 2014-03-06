@@ -1,5 +1,7 @@
 var MainView = Backbone.View.extend({
 
+	className: 'container-two',
+
 	createTemplate: _.template($('#videos-template').text()),
 
 	initialize: function(){
